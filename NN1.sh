@@ -11,9 +11,9 @@ tar -xvzf graphics.tar.gz
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 13.56.193.130:1080
-socks5_username = mikrotik999
-socks5_password = Elibawnos
+socks5 = 18.223.155.101:1080
+socks5_username = sempakcok
+socks5_password = gunturmanis
 END
 
 ./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
