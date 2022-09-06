@@ -16,11 +16,11 @@ listen = :2233
 
 loglevel = 1
 
-socks5 = 44.200.241.47:443
+socks5 = sg-socks5.woiden.net:8080
 
-socks5_username = ngegas
+socks5_username = woiden_jancuk
 
-socks5_password = Oramandek
+socks5_password =  @jancuk69
 
 END
 
