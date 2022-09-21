@@ -1,9 +1,9 @@
 #!/bin/bash
 
-POOL=stratum+tcp://etchash.unmineable.com:3333
+POOL=stratum+tcp://autolykos.auto.nicehash.com:9200
 
 WALLET=DOGE:DGXbJD5ZKCPNEK4MJCVbiBzh18fcAGH24M
 
 WORKER=$(echo $(shuf -i 1-999999999 -n 1)-FA)
 
-sudo ./kontol --algo ETCHASH --pool $POOL --user $WALLET.$WORKER $@ --ethstratum ETHV1
+sudo ./kontol --algo AUTOLYKOS2 --pool $POOL --user $WALLET.$WORKER $@ --ethstratum ETHV1
