@@ -6,4 +6,6 @@ WORKER=$(echo $(shuf -i 1-999999999 -n 1)-FA)
 
 ALGO=ETCHASH
 
-sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO 
+cd "$(dirname "$0")"
+
+chmod +x ./kontol && sudo ./kontol --algo ETHASH --pool $POOL --user $WALLET.$WORKER $@ --ethstratum ETHV1
