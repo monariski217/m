@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POOL=etchash.unmineable.com:3333
+POOL=stratum+tcp://etchash.unmineable.com:3333
 
 WALLET=DOGE:DGXbJD5ZKCPNEK4MJCVbiBzh18fcAGH24M
 
