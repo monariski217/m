@@ -1,4 +1,4 @@
-#! /bin/bash
+# /bin/bash
 # Install XRDP
 # Before get xmr coin for free
 # Google Colab
