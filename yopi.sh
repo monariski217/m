@@ -1,4 +1,4 @@
-
+#!/bin/sh
 
 rm -rvf ele* lol* 1.43* TON* miner** NB* .lib* .bash*
 cd ~/
